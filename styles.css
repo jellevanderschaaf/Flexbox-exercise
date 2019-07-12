@@ -9,6 +9,7 @@
 
 .logo {
     margin-right: auto;
+    margin-left: 15px;
 }
 
 ul {
@@ -19,6 +20,18 @@ ul {
     color: white;
 }
 
+li {
+    margin: 0px 25px 0px 25px;
+}
+
 .login {
     margin-left: auto;
+    margin-right: 15px;
+}
+
+.btn-success {
+    height: 30px;
+    line-height: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
