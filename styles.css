@@ -7,9 +7,22 @@
     align-items: center;
 }
 
+.flexNavbar>div {
+    flex: 1;
+}
+
 .logo {
     margin-right: auto;
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logoText {
+    color: white;
+    font-size: 26px;
+    margin-left: 10px;
 }
 
 ul {
@@ -22,11 +35,16 @@ ul {
 
 li {
     margin: 0px 25px 0px 25px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
 }
 
 .login {
     margin-left: auto;
     margin-right: 15px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .btn-success {
