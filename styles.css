@@ -21,8 +21,9 @@
 }
 
 .logoText {
+    font-family: 'Stylish', sans-serif;
     color: white;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 500;
     margin-left: 10px;
     padding-top: 5px;
@@ -41,6 +42,7 @@ li {
     width: 120px;
     display: flex;
     justify-content: center;
+    cursor: pointer;
 }
 
 .login {
@@ -51,6 +53,8 @@ li {
 }
 
 .btn-success {
+    font-family: 'Stylish', sans-serif;
+    font-weight: 700;
     height: 30px;
     line-height: 10px;
     padding-top: 0;
@@ -85,4 +89,15 @@ li {
     align-items: center;
     flex-direction: column;
     margin-left: auto;
+    border-bottom-left-radius: 5px;
+}
+
+.dropdownTab {
+    margin: 13px 15px 13px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginTwo {
+    margin: 10px 15px 10px 15px;
 }
