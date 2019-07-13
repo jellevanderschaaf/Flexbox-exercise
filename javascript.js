@@ -1,3 +1,17 @@
+var dropdown = "inactive";
+
 $("#menu").click(function() {
-    $("#flexNavbarTwo").toggle();
+
+    if (dropdown == "inactive") {
+        $("#flexNavbarTwo").css(
+            'display', 'flex',
+        );
+        dropdown = "active";
+    } else {
+        $("#flexNavbarTwo").css(
+            'display', 'none',
+        );
+        dropdown = "inactive";
+    }
+
 });
