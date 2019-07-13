@@ -61,12 +61,13 @@ li {
     padding-bottom: 0;
 }
 
-.menu {
+#menu {
     display: flex;
     justify-content: flex-end;
     color: white;
     margin-right: 15px;
     display: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 875px) {
@@ -76,20 +77,21 @@ li {
     .login {
         display: none;
     }
-    .menu {
+    #menu {
         display: flex;
     }
 }
 
-.flexNavbarTwo {
+#flexNavbarTwo {
     display: flex;
     justify-content: flex-end;
     width: 150px;
-    background-color: #343a40;
+    background-color: rgba(52, 58, 64);
     align-items: center;
     flex-direction: column;
     margin-left: auto;
     border-bottom-left-radius: 5px;
+    display: none;
 }
 
 .dropdownTab {
