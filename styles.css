@@ -1,3 +1,11 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
 .flexNavbar {
     display: flex;
     width: 100%;
@@ -62,7 +70,6 @@ li {
 }
 
 #menu {
-    display: flex;
     justify-content: flex-end;
     color: white;
     margin-right: 15px;
@@ -83,7 +90,7 @@ li {
 }
 
 #flexNavbarTwo {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     width: 150px;
     background-color: rgba(52, 58, 64);
@@ -91,7 +98,6 @@ li {
     flex-direction: column;
     margin-left: auto;
     border-bottom-left-radius: 5px;
-    display: none;
 }
 
 .dropdownTab {
@@ -102,4 +108,34 @@ li {
 
 .loginTwo {
     margin: 10px 15px 10px 15px;
+}
+
+
+/* */
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: auto;
+    height: calc(100% - 50px);
+    width: 300px;
+    background-color: #343a40;
+    color: grey;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    border-color: grey;
+    border-width: 2px;
+    margin: 0px;
+}
+
+.head {
+    height: 50px;
+}
+
+.bottom {
+    height: 50px;
 }
