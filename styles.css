@@ -140,7 +140,8 @@ hr {
 }
 
 .middle {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .bottom {
