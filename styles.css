@@ -98,16 +98,22 @@ li {
     flex-direction: column;
     margin-left: auto;
     border-bottom-left-radius: 5px;
+    z-index: 1;
+    position: absolute;
+    top: 50;
+    right: 0;
 }
 
 .dropdownTab {
     margin: 13px 15px 13px 15px;
     color: lightgrey;
     cursor: pointer;
+    z-index: 1;
 }
 
 .loginTwo {
     margin: 10px 15px 10px 15px;
+    z-index: 1;
 }
 
 
