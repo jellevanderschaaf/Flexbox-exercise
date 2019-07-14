@@ -30,7 +30,7 @@ body {
 
 .logoText {
     font-family: 'Stylish', sans-serif;
-    color: white;
+    color: lightgrey;
     font-size: 26px;
     font-weight: 500;
     margin-left: 10px;
@@ -42,7 +42,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    color: white;
+    color: lightgrey;
 }
 
 li {
@@ -71,7 +71,7 @@ li {
 
 #menu {
     justify-content: flex-end;
-    color: white;
+    color: lightgrey;
     margin-right: 15px;
     display: none;
     cursor: pointer;
@@ -102,7 +102,7 @@ li {
 
 .dropdownTab {
     margin: 13px 15px 13px 15px;
-    color: white;
+    color: lightgrey;
     cursor: pointer;
 }
 
@@ -119,23 +119,31 @@ li {
     justify-content: flex-start;
     margin-right: auto;
     height: calc(100% - 50px);
-    width: 300px;
+    width: 250px;
     background-color: #343a40;
-    color: grey;
+    color: lightgrey;
     text-align: center;
 }
 
 hr {
-    width: 100%;
+    width: 90%;
     border-color: grey;
-    border-width: 2px;
-    margin: 0px;
+    border-width: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .head {
     height: 50px;
 }
 
+.middle {
+    overflow: scroll;
+}
+
 .bottom {
     height: 50px;
+    margin-top: auto;
 }
