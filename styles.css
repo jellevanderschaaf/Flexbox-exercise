@@ -136,7 +136,7 @@ hr {
 }
 
 .head {
-    height: 50px;
+    min-height: 50px;
 }
 
 .middle {
@@ -145,7 +145,7 @@ hr {
 }
 
 .bottom {
-    height: 50px;
+    min-height: 50px;
     margin-top: auto;
 }
 
