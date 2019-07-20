@@ -38,6 +38,11 @@ body {
     padding-top: 5px;
 }
 
+.navTabs {
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     display: flex;
     list-style: none;
